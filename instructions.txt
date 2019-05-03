@@ -1,0 +1,12 @@
+Install Heroku CLI
+
+Create git repo and push to Heroku:
+https://dashboard.heroku.com/apps/bot-polurival/deploy/heroku-git
+
+Config bot token in Config vars:
+https://dashboard.heroku.com/apps/bot-polurival/settings
+
+Start bot:
+    heroku ps:scale bot=1
+Watch status:
+    heroku ps
